@@ -239,7 +239,7 @@
             $handshaked = ($keyAccept === $expectedResonse) ? true : false;
             if ($handshaked)
             {
-                fwrite($fd, $this->hybi10Encode('42["' . $this->event . '", "' . addslashes($this->getData()) . '"]'));
+                fwrite($fd, $this->hybi10Encode('42["' . $this->event . '", ' . $this->getData() . ']'));
                 fread($fd,1000000);
                 restore_error_handler();
                 return true;
