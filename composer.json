@@ -1,11 +1,17 @@
 {
     "name": "startnet/postquick-client",
     "type": "library",
+    "description": "",
     "require": {},
     "authors": [
         {
             "name": "Startnet",
             "email": "servicios@startnet.co"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-0": {
+            "PostQuick": "src/"
+        }
+    }
 }
