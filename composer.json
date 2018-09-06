@@ -1,0 +1,11 @@
+{
+    "name": "startnet/postquick-client",
+    "type": "library",
+    "require": {},
+    "authors": [
+        {
+            "name": "Startnet",
+            "email": "servicios@startnet.co"
+        }
+    ]
+}
