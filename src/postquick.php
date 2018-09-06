@@ -3,7 +3,7 @@
 
     require_once './socket-io.php';
 
-    class Client
+    class PostQuickClient
     {
         private $socket;
 
@@ -16,6 +16,6 @@
         }
 
         public function emit($event, $data = array()) {
-            return $this-socket->emit($event, $data); 
+            return $this-socket->emit($event, $data);
         }
     }
