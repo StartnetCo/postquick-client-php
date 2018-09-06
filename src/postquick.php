@@ -16,6 +16,6 @@
         }
 
         public function emit($event, $data = array()) {
-            return $this-socket->emit($event, $data);
+            return $this-socket->emit($event, $data); 
         }
     }
